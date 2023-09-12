@@ -1,2 +1,5 @@
-# Style-Transfer-cpp
-C++ project that expoits ONNXRuntime to run style transfer models
+# ONNXRuntime-cpp-inference-example
+Example of how to use ONNXRuntime for deep learning model inference
+
+
+## WORK IN PROGRESS

@@ -1,5 +1,12 @@
-# ONNXRuntime-cpp-inference-example
-Example of how to use ONNXRuntime for deep learning model inference
+# STYLE TRANSFER CPP
+C++ project that exploit ONNXRuntime to run style transfer models
+
+## Configuration
+
+1. Preliminary step: `make prepare`
+2. CMake configuration:
+    - Debug: `make configuration_d`
+    - Release: `make configuration_r`
 
 
 ## WORK IN PROGRESS

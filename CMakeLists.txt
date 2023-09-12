@@ -21,7 +21,7 @@ message(STATUS ${onnxruntime_LIBRARIES})
 set(EXE_NAME styletransfer)
 
 file(COPY model DESTINATION ./src/)
-file(COPY data DESTINATION ./src/)
+file(COPY images DESTINATION ./src/)
 
 add_subdirectory(src)
 

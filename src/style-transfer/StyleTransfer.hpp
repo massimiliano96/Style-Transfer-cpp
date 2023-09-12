@@ -11,10 +11,10 @@ class StyleTransfer
 public:
     explicit StyleTransfer(const std::string& modelPath);
 
-    std::vector<cv::Mat> process(cv::Mat);
+    cv::Mat process(cv::Mat);
 
 private:
-    Ort::Env env;
+    Ort::Env env {ORT_LOGGING_LEVEL_FATAL, "style-transfer"};
     Ort::Session session;
 };
 

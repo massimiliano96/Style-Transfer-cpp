@@ -5,6 +5,7 @@ include_directories(${onnxruntime_INCLUDE_DIRS}/onnxruntime/include)
 add_executable(${EXE_NAME} 
     main.cpp
     ${STYLE_TRANSFER_SOURCES}
+    ${STYLE_TRANSFER_FACTORY_SOURCES}
 )
 
 target_link_libraries(${EXE_NAME}

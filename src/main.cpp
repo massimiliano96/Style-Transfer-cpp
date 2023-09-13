@@ -46,6 +46,6 @@ int main()
     cv::Mat image = cv::imread(imagePath, cv::IMREAD_COLOR);
 
     cv::Mat processsedImage = detector->process(image);
-    cv::imwrite("./processsedImage.png", processsedImage);
+    cv::imwrite("./images/processsedImage.png", processsedImage);
     return 0;
 }

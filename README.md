@@ -2,7 +2,7 @@
 
 C++ project that exploit ONNXRuntime to run style transfer models
 
-Content                    |  Style                    |  Result                   |
+Content                    |  Style                    |  Generated Image         |
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](./images/face.png)  |  ![](./images/rain-princess.jpg) |  ![](./images/processsedImage.png)
 
